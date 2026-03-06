@@ -7,7 +7,22 @@ The project demonstrates how AI agents can assist engineers with infrastructure 
 ---
 
 ## Concepts Demonstrated
-
+## Agentic Workflow Example
+GOAL
+  ↓
+PLAN
+  ↓
+ACT
+  ↓
+OBSERVE
+  ↓
+VERIFY
+  ↓
+ITERATE (if needed)
+  ↓
+TASK COMPLETE
+This loop allows an AI agent to continuously evaluate the results of its actions before proceeding.  
+Verification ensures that incorrect configurations or failed infrastructure deployments are detected before moving forward.
 ### Agentic Loop
 AI agents operate in a continuous cycle:
 
