@@ -4,6 +4,31 @@ This repository explores how **Agentic AI concepts can support DevOps engineerin
 
 The project demonstrates how AI agents can assist engineers with infrastructure tasks while following structured rules, verification loops, and security guardrails.
 
+## Project Architecture
+
+This repository demonstrates a simplified **Agentic DevOps workflow** where AI agents assist engineers in analyzing and validating infrastructure configurations.
+
+The workflow includes:
+
+Engineer → Defines goal  
+AI Agent → Plans tasks and executes checks  
+Skills → Perform reusable analysis commands  
+Verification → Ensures infrastructure meets required standards
+
+Example workflow:
+
+GOAL → Analyze Terraform infrastructure  
+↓  
+PLAN → Identify required checks  
+↓  
+ACT → Run skill `/terraform-review`  
+↓  
+OBSERVE → Read Terraform configuration  
+↓  
+VERIFY → Check security and configuration best practices  
+↓  
+REPORT → Generate structured findings
+
 ---
 
 ## Concepts Demonstrated
