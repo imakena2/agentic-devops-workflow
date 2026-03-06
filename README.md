@@ -4,6 +4,26 @@ This repository explores how **Agentic AI concepts can support DevOps engineerin
 
 The project demonstrates how AI agents can assist engineers with infrastructure tasks while following structured rules, verification loops, and security guardrails.
 
+## Repository Structure
+agentic-devops-workflow
+│
+├── README.md
+│   Project overview and documentation
+│
+├── CLAUDE.md
+│   Instructions and operational rules for AI agents
+│
+├── terraform-example
+│   └── main.tf
+│       Example Terraform infrastructure configuration
+│
+└── .claude
+    └── commands
+        └── terraform-review.md
+            Reusable AI skill for analyzing Terraform files
+
+    This structure demonstrates how **Agentic AI workflows can be organized in DevOps projects**, where AI agents follow defined project rules, execute reusable skills, and analyze infrastructure configurations.
+
 ## Project Architecture
 
 This repository demonstrates a simplified **Agentic DevOps workflow** where AI agents assist engineers in analyzing and validating infrastructure configurations.
