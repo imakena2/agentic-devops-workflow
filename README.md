@@ -1,27 +1,56 @@
 # Agentic DevOps Workflow
 
-This project explores how Agentic AI can support DevOps engineering workflows.
+This repository explores how **Agentic AI concepts can support DevOps engineering workflows**.
 
-The repository demonstrates core concepts including:
+The project demonstrates how AI agents can assist engineers with infrastructure tasks while following structured rules, verification loops, and security guardrails.
 
-- Agentic Loop (Plan → Act → Observe → Verify → Iterate)
-- CLAUDE.md project guidance for AI agents
-- Skills (slash commands)
-- Subagent coordination concepts
-- MCP server integrations
+---
 
-## Example Use Case
+## Concepts Demonstrated
 
-A DevOps engineer can define structured skills such as:
+### Agentic Loop
+AI agents operate in a continuous cycle:
+
+PLAN → ACT → OBSERVE → VERIFY → ITERATE
+
+This loop ensures each step is validated before moving forward.
+
+### CLAUDE.md
+The `CLAUDE.md` file acts as a **project guide for AI agents**.  
+It explains project structure, rules, and operational boundaries so the agent behaves correctly inside the repository.
+
+### Skills (Slash Commands)
+Reusable prompts stored in version control.
+
+Example skill included in this repository:
 
 /terraform-review
 
-This skill allows an AI agent to analyze Terraform infrastructure code and produce a structured report identifying:
+This skill analyzes Terraform configuration files and generates a report highlighting:
 
 - Security issues
 - Configuration errors
-- Best practice recommendations
+- Best practice improvements
 
-## Purpose
+### Subagents
+Agent systems can use specialized subagents such as:
 
-The goal of this repository is to demonstrate how AI agents can assist engineers in infrastructure automation while maintaining security guardrails and verification steps.
+- Security Auditor
+- Cost Optimizer
+- Terraform Reviewer
+
+These agents focus on specific responsibilities while an orchestrator coordinates tasks.
+
+### MCP Servers
+MCP (Model Context Protocol) servers allow AI agents to interact with external systems such as:
+
+- AWS
+- GitHub
+- Terraform
+- Monitoring tools
+
+Security boundaries ensure that agents operate safely within defined permissions.
+
+---
+
+## Repository Structure
